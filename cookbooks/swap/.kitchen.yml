@@ -1,0 +1,15 @@
+driver_plugin: vagrant
+driver_config:
+  require_chef_omnibus: true
+  use_vagrant_berkshelf_plugin: true
+
+platforms:
+  - name: rhel-6.6
+    driver_config:
+      box: rhel66-1.0.0
+      box_url: http://repo.release.cerner.corp/nexus/content/repositories/vagrant/com/cerner/vagrant/rhel66/1.0.0/rhel66-1.0.0.box
+
+suites:
+- name: default
+  run_list:
+      - recipe[swap]

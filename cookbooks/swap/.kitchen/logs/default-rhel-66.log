@@ -1,0 +1,164 @@
+I, [2015-08-13T15:23:03.342631 #21429]  INFO -- default-rhel-66: -----> Cleaning up any prior instances of <default-rhel-66>
+I, [2015-08-13T15:23:03.343524 #21429]  INFO -- default-rhel-66: -----> Destroying <default-rhel-66>...
+I, [2015-08-13T15:23:05.914809 #21429]  INFO -- default-rhel-66: ==> default: Forcing shutdown of VM...
+I, [2015-08-13T15:23:07.310832 #21429]  INFO -- default-rhel-66: ==> default: Destroying VM and associated drives...
+I, [2015-08-13T15:23:08.756165 #21429]  INFO -- default-rhel-66: Vagrant instance <default-rhel-66> destroyed.
+I, [2015-08-13T15:23:08.758294 #21429]  INFO -- default-rhel-66: Finished destroying <default-rhel-66> (0m5.41s).
+I, [2015-08-13T15:23:08.759262 #21429]  INFO -- default-rhel-66: -----> Testing <default-rhel-66>
+I, [2015-08-13T15:23:08.759420 #21429]  INFO -- default-rhel-66: -----> Creating <default-rhel-66>...
+I, [2015-08-13T15:23:10.050506 #21429]  INFO -- default-rhel-66: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2015-08-13T15:23:10.277798 #21429]  INFO -- default-rhel-66: ==> default: Importing base box 'rhel66-1.0.0'...
+I, [2015-08-13T15:23:27.349513 #21429]  INFO -- default-rhel-66: [KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2015-08-13T15:23:28.076657 #21429]  INFO -- default-rhel-66: ==> default: Setting the name of the VM: kitchen-swap-default-rhel-66_default_1439497408004_61342
+I, [2015-08-13T15:23:28.196638 #21429]  INFO -- default-rhel-66: ==> default: Clearing any previously set forwarded ports...
+I, [2015-08-13T15:23:28.706182 #21429]  INFO -- default-rhel-66: ==> default: Clearing any previously set network interfaces...
+I, [2015-08-13T15:23:28.756674 #21429]  INFO -- default-rhel-66: ==> default: Preparing network interfaces based on configuration...
+I, [2015-08-13T15:23:28.757028 #21429]  INFO -- default-rhel-66:     default: Adapter 1: nat
+I, [2015-08-13T15:23:28.828306 #21429]  INFO -- default-rhel-66: ==> default: Forwarding ports...
+I, [2015-08-13T15:23:28.899799 #21429]  INFO -- default-rhel-66:     default: 22 => 2222 (adapter 1)
+I, [2015-08-13T15:23:29.043247 #21429]  INFO -- default-rhel-66: ==> default: Booting VM...
+I, [2015-08-13T15:23:29.323611 #21429]  INFO -- default-rhel-66: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2015-08-13T15:23:29.672401 #21429]  INFO -- default-rhel-66:     default: SSH address: 127.0.0.1:2222
+I, [2015-08-13T15:23:29.672534 #21429]  INFO -- default-rhel-66:     default: SSH username: vagrant
+I, [2015-08-13T15:23:29.672713 #21429]  INFO -- default-rhel-66:     default: SSH auth method: private key
+I, [2015-08-13T15:23:44.861139 #21429]  INFO -- default-rhel-66:     default: Warning: Connection timeout. Retrying...
+I, [2015-08-13T15:23:45.429512 #21429]  INFO -- default-rhel-66:     default: 
+I, [2015-08-13T15:23:45.429582 #21429]  INFO -- default-rhel-66:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2015-08-13T15:23:45.429613 #21429]  INFO -- default-rhel-66:     default: this with a newly generated keypair for better security.
+I, [2015-08-13T15:23:46.143492 #21429]  INFO -- default-rhel-66:     default: 
+I, [2015-08-13T15:23:46.143575 #21429]  INFO -- default-rhel-66:     default: Inserting generated public key within guest...
+I, [2015-08-13T15:23:46.332807 #21429]  INFO -- default-rhel-66:     default: Removing insecure key from the guest if it's present...
+I, [2015-08-13T15:23:46.434344 #21429]  INFO -- default-rhel-66:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2015-08-13T15:23:47.380611 #21429]  INFO -- default-rhel-66: ==> default: Machine booted and ready!
+I, [2015-08-13T15:23:47.381053 #21429]  INFO -- default-rhel-66: ==> default: Checking for guest additions in VM...
+I, [2015-08-13T15:23:47.436279 #21429]  INFO -- default-rhel-66:     default: The guest additions on this VM do not match the installed version of
+I, [2015-08-13T15:23:47.436346 #21429]  INFO -- default-rhel-66:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2015-08-13T15:23:47.436394 #21429]  INFO -- default-rhel-66:     default: prevent things such as shared folders from working properly. If you see
+I, [2015-08-13T15:23:47.436435 #21429]  INFO -- default-rhel-66:     default: shared folder errors, please make sure the guest additions within the
+I, [2015-08-13T15:23:47.436459 #21429]  INFO -- default-rhel-66:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2015-08-13T15:23:47.436486 #21429]  INFO -- default-rhel-66:     default: your host and reload your VM.
+I, [2015-08-13T15:23:47.436511 #21429]  INFO -- default-rhel-66:     default: 
+I, [2015-08-13T15:23:47.436563 #21429]  INFO -- default-rhel-66:     default: Guest Additions Version: 4.3.14
+I, [2015-08-13T15:23:47.436588 #21429]  INFO -- default-rhel-66:     default: VirtualBox Version: 5.0
+I, [2015-08-13T15:23:47.436949 #21429]  INFO -- default-rhel-66: ==> default: Setting hostname...
+I, [2015-08-13T15:23:52.052950 #21429]  INFO -- default-rhel-66: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2015-08-13T15:23:53.928597 #21429]  INFO -- default-rhel-66: [SSH] Established
+I, [2015-08-13T15:23:53.928925 #21429]  INFO -- default-rhel-66: Vagrant instance <default-rhel-66> created.
+I, [2015-08-13T15:23:53.930717 #21429]  INFO -- default-rhel-66: Finished creating <default-rhel-66> (0m45.17s).
+I, [2015-08-13T15:23:53.931110 #21429]  INFO -- default-rhel-66: -----> Converging <default-rhel-66>...
+I, [2015-08-13T15:23:53.931930 #21429]  INFO -- default-rhel-66: Preparing files for transfer
+I, [2015-08-13T15:23:53.932004 #21429]  INFO -- default-rhel-66: Preparing dna.json
+I, [2015-08-13T15:23:53.935015 #21429]  INFO -- default-rhel-66: Resolving cookbook dependencies with Berkshelf 3.3.0...
+I, [2015-08-13T15:23:54.143259 #21429]  INFO -- default-rhel-66: Removing non-cookbook files before transfer
+I, [2015-08-13T15:23:54.147547 #21429]  INFO -- default-rhel-66: Preparing solo.rb
+I, [2015-08-13T15:23:54.168657 #21429]  INFO -- default-rhel-66: -----> Installing Chef Omnibus (install only if missing)
+I, [2015-08-13T15:23:54.168724 #21429]  INFO -- default-rhel-66: Downloading https://www.chef.io/chef/install.sh to file /tmp/install.sh
+I, [2015-08-13T15:23:54.168756 #21429]  INFO -- default-rhel-66: Trying wget...
+I, [2015-08-13T15:23:54.719462 #21429]  INFO -- default-rhel-66: Download complete.
+I, [2015-08-13T15:23:54.760501 #21429]  INFO -- default-rhel-66: Downloading Chef  for el...
+I, [2015-08-13T15:23:54.760613 #21429]  INFO -- default-rhel-66: downloading https://www.chef.io/chef/metadata?v=&prerelease=false&nightlies=false&p=el&pv=6&m=x86_64
+I, [2015-08-13T15:23:54.760639 #21429]  INFO -- default-rhel-66:   to file /tmp/install.sh.3066/metadata.txt
+I, [2015-08-13T15:23:54.760660 #21429]  INFO -- default-rhel-66: trying wget...
+I, [2015-08-13T15:23:54.937673 #21429]  INFO -- default-rhel-66: url	https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-12.4.1-1.el6.x86_64.rpm
+I, [2015-08-13T15:23:54.937738 #21429]  INFO -- default-rhel-66: md5	f09a9ae589bb9040232c600b008ef812
+I, [2015-08-13T15:23:54.937763 #21429]  INFO -- default-rhel-66: sha256	95150a4b3c3b2313bd206876e09e2fcf742f2fa4611951d52c79225becb32928
+I, [2015-08-13T15:23:54.939376 #21429]  INFO -- default-rhel-66: downloaded metadata file looks valid...
+I, [2015-08-13T15:23:54.950599 #21429]  INFO -- default-rhel-66: downloading https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-12.4.1-1.el6.x86_64.rpm
+I, [2015-08-13T15:23:54.950655 #21429]  INFO -- default-rhel-66:   to file /tmp/install.sh.3066/chef-12.4.1-1.el6.x86_64.rpm
+I, [2015-08-13T15:23:54.950680 #21429]  INFO -- default-rhel-66: trying wget...
+I, [2015-08-13T15:24:41.541468 #21429]  INFO -- default-rhel-66: Comparing checksum with sha256sum...
+I, [2015-08-13T15:24:41.764735 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:41.764800 #21429]  INFO -- default-rhel-66: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2015-08-13T15:24:41.764848 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:41.764875 #21429]  INFO -- default-rhel-66: You are installing an omnibus package without a version pin.  If you are installing
+I, [2015-08-13T15:24:41.764899 #21429]  INFO -- default-rhel-66: on production servers via an automated process this is DANGEROUS and you will
+I, [2015-08-13T15:24:41.764924 #21429]  INFO -- default-rhel-66: be upgraded without warning on new releases, even to new major releases.
+I, [2015-08-13T15:24:41.764947 #21429]  INFO -- default-rhel-66: Letting the version float is only appropriate in desktop, test, development or
+I, [2015-08-13T15:24:41.764971 #21429]  INFO -- default-rhel-66: CI/CD environments.
+I, [2015-08-13T15:24:41.765331 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:41.765356 #21429]  INFO -- default-rhel-66: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2015-08-13T15:24:41.765380 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:41.765410 #21429]  INFO -- default-rhel-66: Installing Chef 
+I, [2015-08-13T15:24:41.765443 #21429]  INFO -- default-rhel-66: installing with rpm...
+I, [2015-08-13T15:24:41.856542 #21429]  INFO -- default-rhel-66: warning: /tmp/install.sh.3066/chef-12.4.1-1.el6.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2015-08-13T15:24:42.385318 #21429]  INFO -- default-rhel-66: Preparing...                                                            (100%)#                                           (100%)##                                          (100%)###                                         (100%)####                                        (100%)#####                                       (100%)######                                      (100%)#######                                     (100%)########                                    (100%)#########                                   (100%)##########                                  (100%)###########                                 (100%)############                                (100%)#############                               (100%)##############                              (100%)###############                             (100%)################                            (100%)#################                           (100%)##################                          (100%)###################                         (100%)####################                        (100%)#####################                       (100%)######################                      (100%)#######################                     (100%)########################                    (100%)#########################                   (100%)##########################                  (100%)###########################                 (100%)############################                (100%)#############################               (100%)##############################              (100%)###############################             (100%)################################            (100%)#################################           (100%)##################################          (100%)###################################         (100%)####################################        (100%)#####################################       (100%)######################################      (100%)#######################################     (100%)########################################    (100%)#########################################   (100%)##########################################  (100%)########################################### (100%)########################################### [100%]
+I, [2015-08-13T15:24:44.878000 #21429]  INFO -- default-rhel-66:    1:chef                                                               (  1%)#                                           (  3%)##                                          (  6%)###                                         (  8%)####                                        ( 10%)#####                                       ( 13%)######                                      ( 15%)#######                                     ( 17%)########                                    ( 19%)#########                                   ( 22%)##########                                  ( 24%)###########                                 ( 26%)############                                ( 28%)#############                               ( 31%)##############                              ( 33%)###############                             ( 35%)################                            ( 38%)#################                           ( 40%)##################                          ( 42%)###################                         ( 44%)####################                        ( 47%)#####################                       ( 49%)######################                      ( 51%)#######################                     ( 53%)########################                    ( 56%)#########################                   ( 58%)##########################                  ( 60%)###########################                 ( 63%)############################                ( 65%)#############################               ( 67%)##############################              ( 69%)###############################             ( 72%)################################            ( 74%)#################################           ( 76%)##################################          ( 78%)###################################         ( 81%)####################################        ( 83%)#####################################       ( 85%)######################################      ( 88%)#######################################     ( 90%)########################################    ( 92%)#########################################   ( 94%)##########################################  ( 97%)########################################### ( 99%)########################################### [100%]
+I, [2015-08-13T15:24:45.611592 #21429]  INFO -- default-rhel-66: Thank you for installing Chef!
+I, [2015-08-13T15:24:45.658745 #21429]  INFO -- default-rhel-66: Transferring files to <default-rhel-66>
+I, [2015-08-13T15:24:46.762793 #21429]  INFO -- default-rhel-66: Starting Chef Client, version 12.4.1
+I, [2015-08-13T15:24:48.315923 #21429]  INFO -- default-rhel-66: Compiling Cookbooks...
+I, [2015-08-13T15:24:48.322668 #21429]  INFO -- default-rhel-66: Converging 2 resources
+I, [2015-08-13T15:24:48.323364 #21429]  INFO -- default-rhel-66: Recipe: swap::default
+I, [2015-08-13T15:24:48.325681 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:48.376154 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:48.376220 #21429]  INFO -- default-rhel-66:       - execute dd if=/dev/zero of=/pagefile.sys bs=1024 count=6536
+I, [2015-08-13T15:24:48.429606 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:48.430337 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:48.431329 #21429]  INFO -- default-rhel-66:  (skipped due to action :nothing)
+I, [2015-08-13T15:24:48.474637 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:48.474700 #21429]  INFO -- default-rhel-66:       - execute swapon /pagefile.sys
+I, [2015-08-13T15:24:48.474724 #21429]  INFO -- default-rhel-66:   
+I, [2015-08-13T15:24:48.479417 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:48.919353 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:48.919416 #21429]  INFO -- default-rhel-66:       - execute dd if=/dev/zero of=/morememory.sys bs=1024 count=120795
+I, [2015-08-13T15:24:48.966594 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:48.966974 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:48.967978 #21429]  INFO -- default-rhel-66:     * execute[mkswap_morememory.sys] action nothing (skipped due to action :nothing)
+I, [2015-08-13T15:24:49.029969 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:49.030053 #21429]  INFO -- default-rhel-66:       - execute swapon /morememory.sys
+I, [2015-08-13T15:24:49.030080 #21429]  INFO -- default-rhel-66:   
+I, [2015-08-13T15:24:49.030103 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:24:49.030129 #21429]  INFO -- default-rhel-66: Running handlers:
+I, [2015-08-13T15:24:49.030153 #21429]  INFO -- default-rhel-66: Running handlers complete
+I, [2015-08-13T15:24:49.030212 #21429]  INFO -- default-rhel-66: Chef Client finished, 8/8 resources updated in 2.281116462 seconds
+I, [2015-08-13T15:24:49.165050 #21429]  INFO -- default-rhel-66: Finished converging <default-rhel-66> (0m55.23s).
+I, [2015-08-13T15:24:49.165410 #21429]  INFO -- default-rhel-66: -----> Setting up <default-rhel-66>...
+I, [2015-08-13T15:24:49.166871 #21429]  INFO -- default-rhel-66: Finished setting up <default-rhel-66> (0m0.00s).
+I, [2015-08-13T15:24:49.166973 #21429]  INFO -- default-rhel-66: -----> Verifying <default-rhel-66>...
+I, [2015-08-13T15:24:49.167473 #21429]  INFO -- default-rhel-66: Preparing files for transfer
+I, [2015-08-13T15:24:49.408186 #21429]  INFO -- default-rhel-66: -----> Installing Busser (busser)
+I, [2015-08-13T15:24:51.571166 #21429]  INFO -- default-rhel-66: Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem ( 18%)Fetching: thor-0.19.0.gem ( 35%)Fetching: thor-0.19.0.gem ( 53%)Fetching: thor-0.19.0.gem ( 71%)Fetching: thor-0.19.0.gem ( 89%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
+I, [2015-08-13T15:24:51.614969 #21429]  INFO -- default-rhel-66: Successfully installed thor-0.19.0
+I, [2015-08-13T15:24:51.877445 #21429]  INFO -- default-rhel-66: Fetching: busser-0.7.1.gemFetching: busser-0.7.1.gem ( 64%)Fetching: busser-0.7.1.gem (100%)Fetching: busser-0.7.1.gem (100%)
+I, [2015-08-13T15:24:51.905325 #21429]  INFO -- default-rhel-66: Successfully installed busser-0.7.1
+I, [2015-08-13T15:24:51.905386 #21429]  INFO -- default-rhel-66: 2 gems installed
+I, [2015-08-13T15:24:52.143782 #21429]  INFO -- default-rhel-66: -----> Setting up Busser
+I, [2015-08-13T15:24:52.143868 #21429]  INFO -- default-rhel-66: Creating BUSSER_ROOT in /tmp/verifier
+I, [2015-08-13T15:24:52.143900 #21429]  INFO -- default-rhel-66: Creating busser binstub
+I, [2015-08-13T15:24:52.150422 #21429]  INFO -- default-rhel-66: Installing Busser plugins: busser-serverspec
+I, [2015-08-13T15:24:56.886396 #21429]  INFO -- default-rhel-66: Plugin serverspec installed (version 0.5.7)
+I, [2015-08-13T15:24:56.891075 #21429]  INFO -- default-rhel-66: -----> Running postinstall for serverspec plugin
+I, [2015-08-13T15:24:59.238840 #21429]  INFO -- default-rhel-66: Suite path directory /tmp/verifier/suites does not exist, skipping.
+I, [2015-08-13T15:24:59.241464 #21429]  INFO -- default-rhel-66: Transferring files to <default-rhel-66>
+I, [2015-08-13T15:24:59.494726 #21429]  INFO -- default-rhel-66: -----> Running serverspec test suite
+I, [2015-08-13T15:24:59.504678 #21429]  INFO -- default-rhel-66: -----> Installing Serverspec..
+I, [2015-08-13T15:25:02.343254 #21429]  INFO -- default-rhel-66: Fetching: sfl-2.2.gemFetching: sfl-2.2.gem (100%)Fetching: sfl-2.2.gem (100%)
+I, [2015-08-13T15:25:02.544575 #21429]  INFO -- default-rhel-66: Fetching: net-telnet-0.1.1.gemFetching: net-telnet-0.1.1.gem ( 93%)Fetching: net-telnet-0.1.1.gem (100%)Fetching: net-telnet-0.1.1.gem (100%)
+I, [2015-08-13T15:25:02.988551 #21429]  INFO -- default-rhel-66: Fetching: net-ssh-2.9.2.gemFetching: net-ssh-2.9.2.gem (  9%)Fetching: net-ssh-2.9.2.gem ( 19%)Fetching: net-ssh-2.9.2.gem ( 28%)Fetching: net-ssh-2.9.2.gem ( 37%)Fetching: net-ssh-2.9.2.gem ( 46%)Fetching: net-ssh-2.9.2.gem ( 55%)Fetching: net-ssh-2.9.2.gem ( 65%)Fetching: net-ssh-2.9.2.gem ( 74%)Fetching: net-ssh-2.9.2.gem ( 83%)Fetching: net-ssh-2.9.2.gem ( 92%)Fetching: net-ssh-2.9.2.gem (100%)Fetching: net-ssh-2.9.2.gem (100%)
+I, [2015-08-13T15:25:03.425443 #21429]  INFO -- default-rhel-66: Fetching: net-scp-1.2.1.gemFetching: net-scp-1.2.1.gem ( 48%)Fetching: net-scp-1.2.1.gem ( 98%)Fetching: net-scp-1.2.1.gem (100%)Fetching: net-scp-1.2.1.gem (100%)
+I, [2015-08-13T15:25:03.635085 #21429]  INFO -- default-rhel-66: Fetching: specinfra-2.40.2.gemFetching: specinfra-2.40.2.gem ( 24%)Fetching: specinfra-2.40.2.gem ( 48%)Fetching: specinfra-2.40.2.gem ( 72%)Fetching: specinfra-2.40.2.gem ( 96%)Fetching: specinfra-2.40.2.gem (100%)Fetching: specinfra-2.40.2.gem (100%)
+I, [2015-08-13T15:25:04.086371 #21429]  INFO -- default-rhel-66: Fetching: multi_json-1.11.2.gemFetching: multi_json-1.11.2.gem ( 63%)Fetching: multi_json-1.11.2.gem (100%)Fetching: multi_json-1.11.2.gem (100%)
+I, [2015-08-13T15:25:04.456972 #21429]  INFO -- default-rhel-66: Fetching: diff-lcs-1.2.5.gemFetching: diff-lcs-1.2.5.gem ( 32%)Fetching: diff-lcs-1.2.5.gem ( 66%)Fetching: diff-lcs-1.2.5.gem ( 99%)Fetching: diff-lcs-1.2.5.gem (100%)Fetching: diff-lcs-1.2.5.gem (100%)
+I, [2015-08-13T15:25:04.641820 #21429]  INFO -- default-rhel-66: Fetching: rspec-support-3.3.0.gemFetching: rspec-support-3.3.0.gem ( 55%)Fetching: rspec-support-3.3.0.gem (100%)Fetching: rspec-support-3.3.0.gem (100%)
+I, [2015-08-13T15:25:05.067468 #21429]  INFO -- default-rhel-66: Fetching: rspec-expectations-3.3.1.gemFetching: rspec-expectations-3.3.1.gem ( 22%)Fetching: rspec-expectations-3.3.1.gem ( 44%)Fetching: rspec-expectations-3.3.1.gem ( 67%)Fetching: rspec-expectations-3.3.1.gem ( 89%)Fetching: rspec-expectations-3.3.1.gem (100%)Fetching: rspec-expectations-3.3.1.gem (100%)
+I, [2015-08-13T15:25:05.520418 #21429]  INFO -- default-rhel-66: Fetching: rspec-core-3.3.2.gemFetching: rspec-core-3.3.2.gem ( 12%)Fetching: rspec-core-3.3.2.gem ( 23%)Fetching: rspec-core-3.3.2.gem ( 35%)Fetching: rspec-core-3.3.2.gem ( 47%)Fetching: rspec-core-3.3.2.gem ( 59%)Fetching: rspec-core-3.3.2.gem ( 71%)Fetching: rspec-core-3.3.2.gem ( 82%)Fetching: rspec-core-3.3.2.gem ( 94%)Fetching: rspec-core-3.3.2.gem (100%)Fetching: rspec-core-3.3.2.gem (100%)
+I, [2015-08-13T15:25:05.729853 #21429]  INFO -- default-rhel-66: Fetching: rspec-its-1.2.0.gemFetching: rspec-its-1.2.0.gem (100%)Fetching: rspec-its-1.2.0.gem (100%)
+I, [2015-08-13T15:25:06.134143 #21429]  INFO -- default-rhel-66: Fetching: rspec-mocks-3.3.2.gemFetching: rspec-mocks-3.3.2.gem ( 21%)Fetching: rspec-mocks-3.3.2.gem ( 43%)Fetching: rspec-mocks-3.3.2.gem ( 65%)Fetching: rspec-mocks-3.3.2.gem ( 87%)Fetching: rspec-mocks-3.3.2.gem (100%)Fetching: rspec-mocks-3.3.2.gem (100%)
+I, [2015-08-13T15:25:06.552917 #21429]  INFO -- default-rhel-66: Fetching: rspec-3.3.0.gemFetching: rspec-3.3.0.gem (100%)Fetching: rspec-3.3.0.gem (100%)
+I, [2015-08-13T15:25:06.736041 #21429]  INFO -- default-rhel-66: Fetching: serverspec-2.21.0.gemFetching: serverspec-2.21.0.gem ( 44%)Fetching: serverspec-2.21.0.gem ( 90%)Fetching: serverspec-2.21.0.gem (100%)Fetching: serverspec-2.21.0.gem (100%)
+I, [2015-08-13T15:25:06.798078 #21429]  INFO -- default-rhel-66: -----> serverspec installed (version 2.21.0)
+I, [2015-08-13T15:25:06.889298 #21429]  INFO -- default-rhel-66: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.3.0/lib:/tmp/verifier/gems/gems/rspec-core-3.3.2/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec
+I, [2015-08-13T15:25:07.217478 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:25:07.217540 #21429]  INFO -- default-rhel-66: File "/pagefile.sys"
+I, [2015-08-13T15:25:07.266750 #21429]  INFO -- default-rhel-66: [32m  should exist[0m
+I, [2015-08-13T15:25:07.266824 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:25:07.266849 #21429]  INFO -- default-rhel-66: Finished in 0.04387 seconds (files took 0.29327 seconds to load)
+I, [2015-08-13T15:25:07.266872 #21429]  INFO -- default-rhel-66: [32m1 example, 0 failures[0m
+I, [2015-08-13T15:25:07.266893 #21429]  INFO -- default-rhel-66: 
+I, [2015-08-13T15:25:07.306310 #21429]  INFO -- default-rhel-66: Finished verifying <default-rhel-66> (0m18.14s).
+I, [2015-08-13T15:25:07.306817 #21429]  INFO -- default-rhel-66: -----> Destroying <default-rhel-66>...
+I, [2015-08-13T15:25:09.703423 #21429]  INFO -- default-rhel-66: ==> default: Forcing shutdown of VM...
+I, [2015-08-13T15:25:10.793035 #21429]  INFO -- default-rhel-66: ==> default: Destroying VM and associated drives...
+I, [2015-08-13T15:25:11.562816 #21429]  INFO -- default-rhel-66: Vagrant instance <default-rhel-66> destroyed.
+I, [2015-08-13T15:25:11.564187 #21429]  INFO -- default-rhel-66: Finished destroying <default-rhel-66> (0m4.26s).
+I, [2015-08-13T15:25:11.564493 #21429]  INFO -- default-rhel-66: Finished testing <default-rhel-66> (2m8.22s).

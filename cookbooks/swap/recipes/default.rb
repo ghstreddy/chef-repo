@@ -10,3 +10,7 @@
 swap_file "/pagefile.sys" do
   action :create
 end
+
+swap_file "/morememory.sys" do
+  blocks 120795
+end
